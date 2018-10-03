@@ -1,7 +1,6 @@
 USE codeup_test_db;
   INSERT INTO albums(artist, name, release_date, sales, genre)
-  VALUES ('Guns N'' Roses', 'Appetite for Destruction', '1987', 21.6, 'Hard Rock'),
-         ('Olivia Newton John, John Travolta', 'Grease: The Original Soundtrack from the Motion Picture', '1978', 14.4, 'Soundtrack'),
+  VALUES ('Olivia Newton John, John Travolta', 'Grease: The Original Soundtrack from the Motion Picture', '1978', 14.4, 'Soundtrack'),
          ('The Beatles', 'Abbey Road', '1969', 14.4, 'Rock'),
          ('Nirvana', 'Nevermind', '1991', 16.7, 'Grunge'),
          ('Michael Jackson', 'Dangerous', '1991', 17.3, 'Rock'),
