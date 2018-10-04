@@ -9,10 +9,10 @@ SELECT artist, NAME, sales FROM albums;
 
 
 SELECT 'All albums released prior to 1980' AS 'SEARCH QUERY';
-SELECT name FROM albums Where release_date < 1980;
+SELECT name FROM albums Where release_date between 1950 AND 1979;
 UPDATE albums set release_date = (release_date - 100);
 SELECT 'All albums before 1980 set to 1800s' AS 'SEARCH QUERY';
-SELECT name, artist, release_date FROM albums WHERE release_date < 1880;
+SELECT name, artist, release_date FROM albums WHERE release_date BETWEEN 1800 AND 1899;
 
 
 SELECT 'Albums by Michael Jackson' AS 'SEARCH QUERY';
