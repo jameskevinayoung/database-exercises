@@ -4,7 +4,7 @@ SELECT 'All albums' AS 'SEARCH QUERY';
 SELECT name FROM albums;
 UPDATE albums set sales = (sales*10);
 SELECT 'Albums are 10x popular' AS 'SEARCH QUERY';
-SELECT NAME FROM albums;
+SELECT artist, NAME, sales FROM albums;
 
 
 SELECT 'All albums released prior to 1980' AS 'SEARCH QUERY';
