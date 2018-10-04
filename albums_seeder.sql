@@ -1,4 +1,5 @@
 USE codeup_test_db;
+TRUNCATE albums;
   INSERT INTO albums(artist, name, release_date, sales, genre)
   VALUES ('Olivia Newton John, John Travolta', 'Grease: The Original Soundtrack from the Motion Picture', '1978', 14.4, 'Soundtrack'),
          ('The Beatles', 'Abbey Road', '1969', 14.4, 'Rock'),
