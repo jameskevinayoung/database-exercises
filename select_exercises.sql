@@ -1,4 +1,5 @@
 USE codeup_test_db;
+Truncate albums;
 
 SELECT 'Highest selling albums by Pink Floyd' AS 'Search Query';
 SELECT name FROM albums WHERE artist = 'Pink Floyd';

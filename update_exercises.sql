@@ -1,4 +1,5 @@
 USE codeup_test_db;
+Truncate albums;
 
 SELECT 'All albums' AS 'SEARCH QUERY';
 SELECT name FROM albums;
