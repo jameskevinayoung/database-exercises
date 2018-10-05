@@ -26,10 +26,10 @@ AND birth_date like '%12-25';
 
 
 SELECT 'EMPLOYEES BORN ON CHRISTMAS' AS 'QUERY SELECTION';
-SELECT DISTINCT emp_no, first_name, last_name
+SELECT emp_no, first_name, last_name,birth_date,hire_date
 FROM employees
 WHERE birth_date like '%12-25'
- ORDER BY birth_date desc and hired_date asc;
+ORDER BY birth_date, hire_date desc
 
 
 SELECT 'EMPLOYESS WITH A ''Q'' IN THEIR LAST NAME' AS 'QUERY SELECTION'
