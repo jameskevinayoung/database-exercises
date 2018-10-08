@@ -2,6 +2,8 @@ USE employees;
 
 --number 1
 
+--Find all the employees with the same hire date as employee 101010 using a sub-query. 69 Rows
+
 select first_name, last_name
 from employees AS E
 where e.hire_date in(
@@ -11,6 +13,8 @@ where e.hire_date in(
 );
 
 --number 2
+
+--Find all the titles held by all employees with the first name Aamod. 314 total titles, 6 unique titles
 
 select title
 from titles
@@ -23,6 +27,8 @@ group by title;
 
 --number 3
 
+--Find all the current department managers that are female.
+
 select first_name, last_name
 from employees
 where emp_no IN(
@@ -32,6 +38,8 @@ where emp_no IN(
     );
 
 --Bonus 1
+
+--Find all the department names that currently have female managers.
 
 select dept_name
 from departments
@@ -46,6 +54,9 @@ where dept_no in(
   );
 
 --Bonus 2
+
+--Find the first and last name of the employee with the highest salary.
+
 
 select first_name, last_name
 from employees
