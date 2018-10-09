@@ -57,8 +57,9 @@ select email
 from users
 where id in (
   select user_id
-  from ads where user_id = 1
+  from ads as a where title like 'Handy-Person Asap'
 );
+
 
 --question 2
 
