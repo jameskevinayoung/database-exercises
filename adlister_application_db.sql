@@ -49,7 +49,9 @@ insert into ads (title, discription, category, user_id)
 values ('Android Screen Repair', 'Looking for phone repairs', 'help wanted', 6),
        ('Free Grill Set', 'Small Grill up for grabs', 'giveaway', 8);
 
-
+INSERT INTO ad_category(ad_id, category_id)
+VALUES (1, 2), (2, 5), (3, 3), (4, 1),
+       (5, 4), (6, 5), (7, 1);
 
 --question 1
 
