@@ -1,8 +1,8 @@
-CREATE DATABASE adlister_application_db;
+USE DATABASE adlister_application_db;
 
 create table users (
     id INT unsigned NOT NULL AUTO_INCREMENT,
-    username VARCHAR(50),
+    username VARCHAR(50) NOT NULL,
     email VARCHAR(100) NOT NULL,
     password VARCHAR(16) NOT NULL,
     PRIMARY KEY (id)
@@ -18,3 +18,4 @@ CREATE TABLE ads (
     FOREIGN KEY(user_id) REFERENCES  users (id)
 
 );
+
